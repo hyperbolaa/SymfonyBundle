@@ -1,0 +1,22 @@
+services:
+    hyperbolaa_image:
+        class: Hyperbolaa\SymfonyBundle\Service\ImageService
+        calls:
+            - [ setContainer, [ @service_container ] ]
+
+    hyperbolaa_sms:
+        class: Hyperbolaa\SymfonyBundle\Service\SmsService
+        calls:
+            - [ setContainer, [ @service_container ] ]
+
+    hyperbolaa_thumb:
+        class: Hyperbolaa\SymfonyBundle\Service\ThumbService
+        calls:
+            - [ setContainer, [ @service_container ] ]
+
+    hyperbolaa_symfony.twig.hyperbolaa_symfony_extension:
+        class: Hyperbolaa\SymfonyBundle\Twig\HyperbolaaSymfonyExtension
+        tags:
+            - { name: twig.extension }
+        calls:
+            - [ setContainer, [ @service_container ] ]
