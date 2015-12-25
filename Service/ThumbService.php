@@ -3,7 +3,7 @@
  * 第三方bundle的服务
  * 此处写业务逻辑,图片裁切服务
  */
-namespace Hyperbolaa\Symfony\Service;
+namespace Hyperbolaa\SymfonyBundle\Service;
 
 use Symfony\Component\DependencyInjection\ContainerAwareInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;

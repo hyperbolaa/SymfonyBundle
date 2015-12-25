@@ -3,7 +3,7 @@
  * 注册twig模板的 函数 和  过滤器
  * 后期可增加自定义的函数和过滤器
  */
-namespace Hyperbolaa\Symfony\Twig;
+namespace Hyperbolaa\SymfonyBundle\Twig;
 
 use Symfony\Component\DependencyInjection\ContainerAwareInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
