@@ -1,23 +1,29 @@
 {
-"name": "hyperbolaa/symfony-bundle",
-"type": "symfony-bundle",
-"description": "image for symfony2",
-"keywords": ["image", "symfony2"],
-"homepage": "https://github.com/hyperbolaa/SymfonyBundle",
-"license": "MIT",
-"authors": [
-{
-"name": "chong yu",
-"email": "chongyu366@gmail.com"
-}
-],
+    "name": "hyperbolaa/symfony-bundle",
+    "type": "symfony-bundle",
+    "description": "image for symfony2",
+    "keywords": ["image", "symfony2"],
+    "homepage": "https://github.com/hyperbolaa/SymfonyBundle",
+    "license": "MIT",
+    "authors": [
+        {
+        "name": "chong yu",
+        "email": "chongyu366@gmail.com"
+        }
+    ],
     "require": {
-        "php": ">=5.5.0"
+        "php": ">=5.5.0",
+        "symfony/framework-bundle": "~2.3",
+        "symfony/twig-bundle": "~2.3"
     },
     "autoload": {
-        "psr-4": { "Hyperbolaa\\SymfonyBundle\\": "" }
+        "psr-4": {
+            "Hyperbolaa\\SymfonyBundle\\": ""
+        }
     },
     "extra": {
-        "branch-alias": {"dev-master": "1.0.x-dev"}
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
     }
 }
